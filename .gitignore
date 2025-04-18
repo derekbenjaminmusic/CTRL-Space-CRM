@@ -1,4 +1,10 @@
-*.pyc
+# Ignore Python cache
 __pycache__/
+*.pyc
+
+# Ignore logs
 *.log
-*.swp
+/var/log/
+
+# Ignore database dumps unless you want them
+*.sql
